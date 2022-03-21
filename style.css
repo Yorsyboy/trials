@@ -1,0 +1,28 @@
+#header-img {
+    height: auto;
+    width: 60px;
+}
+
+#video, #form {
+    display: flex;
+    justify-content: center;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    
+}
+
+#product-card {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+@media screen and (max-width: 480px) {
+    #header-img {
+        display: none;
+    }
+}
